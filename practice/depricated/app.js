@@ -18,8 +18,9 @@ function($stateProvider, $urlRouterProvider) {
       controller: 'PostsCtrl'
     });
 
-  $urlRouterProvider.otherwise('home');
+    $urlRouterProvider.otherwise('home');
 }])
+
 .factory('posts', [function(){
   var o = {
     posts: []
@@ -43,7 +44,7 @@ $scope.addComment = function(){
 };
 function($scope, $stateParams, posts){
 
-}]);
+}])
 
 .controller('MainCtrl', [
 '$scope',
@@ -64,8 +65,8 @@ function($scope, posts){
     });
     $scope.title = '';
     $scope.link = '';
-};
-$scope.incrementUpvotes = function(post) {
-  post.upvotes += 1;
-};
-}]);
+  };
+  $scope.incrementUpvotes = function(post) {
+    post.upvotes += 1;
+  };
+}])
