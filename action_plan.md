@@ -14,6 +14,7 @@ Review Angular documentation
 Construct database for facilities using postgres
 Set up seeding for database until
 Figure out how to host the database
+Outline Database
 Tuesday,  May 15th:
 TBD
 Wednesday,  May 16th:
