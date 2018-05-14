@@ -10,6 +10,7 @@ Initialize files for project
 Finish going over Angular and Rails tutorial
 
 Monday, May 14th:
+Review Angular documentation
 Construct database for facilities using postgres
 Set up seeding for database until
 Figure out how to host the database
